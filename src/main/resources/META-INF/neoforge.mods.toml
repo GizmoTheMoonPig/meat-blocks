@@ -6,7 +6,7 @@ license = "MIT"
 [[mods]]
 modId = "meatblocks"
 version = "${file.jarVersion}"
-displayName = "Meat Blocks"
+displayName = "Block o' Meat"
 displayURL = "https://www.curseforge.com/minecraft/mc-mods/meat-blocks"
 authors = "MemeDream, GizmoTheMoonPig"
 description = 'Adds edible storage blocks for all the meat types in vanilla'
