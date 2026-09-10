@@ -1,0 +1,7 @@
+{
+  "parent": "meatblocks:block/template/meat_block_bite_3",
+  "textures": {
+    "end": "meatblocks:block/raw_beef_block_top",
+    "side": "meatblocks:block/raw_beef_block"
+  }
+}

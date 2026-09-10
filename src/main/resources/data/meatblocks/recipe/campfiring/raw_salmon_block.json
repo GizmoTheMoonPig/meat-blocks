@@ -1,0 +1,12 @@
+{
+  "type": "minecraft:campfire_cooking",
+  "category": "food",
+  "cookingtime": 5400,
+  "experience": 3.15,
+  "ingredient": {
+    "item": "meatblocks:raw_salmon_block"
+  },
+  "result": {
+    "id": "meatblocks:cooked_salmon_block"
+  }
+}

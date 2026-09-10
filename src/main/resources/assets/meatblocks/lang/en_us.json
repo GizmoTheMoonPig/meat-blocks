@@ -1,0 +1,18 @@
+{
+  "block.meatblocks.cooked_beef_block": "Steak Block",
+  "block.meatblocks.cooked_chicken_block": "Cooked Chicken Block",
+  "block.meatblocks.cooked_cod_block": "Cooked Cod Block",
+  "block.meatblocks.cooked_mutton_block": "Cooked Mutton Block",
+  "block.meatblocks.cooked_pork_block": "Cooked Pork Block",
+  "block.meatblocks.cooked_rabbit_block": "Cooked Rabbit Block",
+  "block.meatblocks.cooked_salmon_block": "Cooked Salmon Block",
+  "block.meatblocks.pufferfish_block": "Pufferfish Block",
+  "block.meatblocks.raw_beef_block": "Raw Beef Block",
+  "block.meatblocks.raw_chicken_block": "Raw Chicken Block",
+  "block.meatblocks.raw_cod_block": "Raw Cod Block",
+  "block.meatblocks.raw_mutton_block": "Raw Mutton Block",
+  "block.meatblocks.raw_pork_block": "Raw Pork Block",
+  "block.meatblocks.raw_rabbit_block": "Raw Rabbit Block",
+  "block.meatblocks.raw_salmon_block": "Raw Salmon Block",
+  "block.meatblocks.tropical_fish_block": "Tropical Fish Block"
+}

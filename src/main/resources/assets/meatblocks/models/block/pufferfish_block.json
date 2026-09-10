@@ -1,0 +1,8 @@
+{
+  "parent": "minecraft:block/cube_bottom_top",
+  "textures": {
+    "bottom": "meatblocks:block/pufferfish_block_bottom",
+    "side": "meatblocks:block/pufferfish_block",
+    "top": "meatblocks:block/pufferfish_block_top"
+  }
+}

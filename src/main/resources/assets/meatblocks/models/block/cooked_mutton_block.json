@@ -1,0 +1,7 @@
+{
+  "parent": "minecraft:block/cube_column",
+  "textures": {
+    "end": "meatblocks:block/cooked_mutton_block_top",
+    "side": "meatblocks:block/cooked_mutton_block"
+  }
+}

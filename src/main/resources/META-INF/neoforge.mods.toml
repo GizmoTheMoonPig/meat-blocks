@@ -1,0 +1,26 @@
+modLoader = "javafml"
+loaderVersion = "[4,)"
+issueTrackerURL = "https://github.com/gizmothemoonpig/meat-blocks/issues"
+license = "MIT"
+
+[[mods]]
+modId = "meatblocks"
+version = "${file.jarVersion}"
+displayName = "Meat Blocks"
+displayURL = "https://www.curseforge.com/minecraft/mc-mods/meat-blocks"
+authors = "MemeDream, GizmoTheMoonPig"
+description = 'Adds edible storage blocks for all the meat types in vanilla'
+
+[[dependencies.meatblocks]]
+    modId = "neoforge"
+    type = "required"
+    versionRange = "[21.1,)"
+    ordering = "NONE"
+    side = "BOTH"
+
+[[dependencies.meatblocks]]
+    modId = "minecraft"
+    type = "required"
+    versionRange = "[1.21.1]"
+    ordering = "NONE"
+    side = "BOTH"

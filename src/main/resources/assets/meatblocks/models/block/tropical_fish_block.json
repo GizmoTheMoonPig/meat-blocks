@@ -1,0 +1,7 @@
+{
+  "parent": "minecraft:block/cube_column",
+  "textures": {
+    "end": "meatblocks:block/tropical_fish_block_top",
+    "side": "meatblocks:block/tropical_fish_block"
+  }
+}

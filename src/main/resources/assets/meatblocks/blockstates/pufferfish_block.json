@@ -1,0 +1,30 @@
+{
+  "variants": {
+    "facing=down": {
+      "model": "meatblocks:block/pufferfish_block",
+      "x": 180
+    },
+    "facing=east": {
+      "model": "meatblocks:block/pufferfish_block",
+      "x": 90,
+      "y": 90
+    },
+    "facing=north": {
+      "model": "meatblocks:block/pufferfish_block",
+      "x": 90
+    },
+    "facing=south": {
+      "model": "meatblocks:block/pufferfish_block",
+      "x": 90,
+      "y": 180
+    },
+    "facing=up": {
+      "model": "meatblocks:block/pufferfish_block"
+    },
+    "facing=west": {
+      "model": "meatblocks:block/pufferfish_block",
+      "x": 90,
+      "y": 270
+    }
+  }
+}
