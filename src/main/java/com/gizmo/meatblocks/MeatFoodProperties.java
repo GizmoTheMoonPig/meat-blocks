@@ -23,4 +23,5 @@ public class MeatFoodProperties {
 	public static final FoodProperties COOKED_COD_BLOCK = new FoodProperties.Builder().nutrition(45).saturationModifier(5.4F).build();
 	public static final FoodProperties TROPICAL_FISH_BLOCK = new FoodProperties.Builder().nutrition(9).saturationModifier(0.9F).build();
 	public static final FoodProperties PUFFERFISH_BLOCK = new FoodProperties.Builder().nutrition(9).saturationModifier(0.9F).build();
+	public static final FoodProperties ROTTEN_FLESH_BLOCK = new FoodProperties.Builder().nutrition(36).saturationModifier(0.1f).effect(() -> new MobEffectInstance(MobEffects.HUNGER, 600, 8), 0.8F).build();
 }
