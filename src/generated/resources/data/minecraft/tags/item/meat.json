@@ -1,0 +1,15 @@
+{
+  "values": [
+    "meatblocks:rotten_flesh_block",
+    "meatblocks:cooked_beef_block",
+    "meatblocks:cooked_mutton_block",
+    "meatblocks:cooked_pork_block",
+    "meatblocks:cooked_rabbit_block",
+    "meatblocks:cooked_chicken_block",
+    "meatblocks:raw_beef_block",
+    "meatblocks:raw_mutton_block",
+    "meatblocks:raw_pork_block",
+    "meatblocks:raw_rabbit_block",
+    "meatblocks:raw_chicken_block"
+  ]
+}

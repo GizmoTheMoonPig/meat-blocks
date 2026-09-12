@@ -34,7 +34,7 @@ idea {
 }
 
 version = project.mod_version
-group = "com.memedream.${project.modid}"
+group = "com.gizmo.${project.modid}"
 
 java.toolchain.languageVersion = JavaLanguageVersion.of(21)
 
@@ -47,21 +47,49 @@ base {
 	archivesName = project.modid+'-'+project.minecraft_version
 }
 
+sourceSets {
+	data {
+		compileClasspath += main.compileClasspath + main.output
+
+		java {
+			srcDirs = ['src/main/java', 'src/data/java']
+		}
+		resources {
+			srcDirs = ['src/main/resources']
+		}
+	}
+}
+
+configurations {
+	dataImplementation.extendsFrom implementation
+}
+
 neoForge {
 	evaluationDependsOnChildren()
 
 	version = project.neo_version
 	validateAccessTransformers = true
 
+	addModdingDependenciesTo sourceSets.data
+
 	mods {
 		"${project.modid}" {
 			it.sourceSet this.sourceSets.main
 		}
+
+		"${project.modid}-data" {
+			it.sourceSet this.sourceSets.main
+			it.sourceSet this.sourceSets.data
+		}
 	}
+
+	def mainMod = mods."${project.modid}"
+	def dataMod = mods."${project.modid}-data"
 
 	runs {
 		configureEach {
 			logLevel = org.slf4j.event.Level.DEBUG
+			loadedMods = [mainMod]
 		}
 
 		client {
@@ -84,9 +112,13 @@ neoForge {
 		data {
 			data()
 			programArguments.addAll '--mod', "${project.modid}", '--all', '--output', file('src/generated/resources/').getAbsolutePath(), '--existing', file('src/main/resources/').getAbsolutePath()
+			sourceSet = this.sourceSets.data
+			loadedMods = [dataMod]
 		}
 	}
 }
+
+sourceSets.main.resources { srcDir 'src/generated/resources' }
 
 processResources {
 	def ver = project.version
